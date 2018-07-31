@@ -114,7 +114,6 @@ The_chosen_traffic_light_program_is_incompatible_to_this_junction 所选择的�
 Advanced_AI_cannot_be_activated 高级车辆AI无法启动
 The_Advanced_Vehicle_AI_cannot_be_activated 高级车辆AI无法启动，因为您已启用其他车辆控制MOD
 Enable_dynamic_path_calculation 启用动态路径计算
-Changes_made_with_this_tool_will_take_full_effect_after_some_minutes 此工具所做更改需要几分钟生效
 Lane_Arrow_Changer_Disabled_Connection 车道箭头不可改变因为你已经手动创建车道连接
 Lane_connector 车道连接工具
 Connected_lanes 已连接车道
@@ -202,10 +201,14 @@ TMPE_TUTORIAL_HEAD_PrioritySignsTool 优先通行权设置
 TMPE_TUTORIAL_BODY_PrioritySignsTool 设置路口的优先通行权。\n\n1. 单击一个路口\n2. 单击空白点来(循环)选择可用的优先通行权(干道、减速让行、停车让行)\n\n可用热键：\n\n- Shift：按住可一次性应用优先通行权至多个路段;按住时单击可(循环)选择可用的优先通行权
 TMPE_TUTORIAL_HEAD_SpeedLimitsTool 道路限速设置
 TMPE_TUTORIAL_BODY_SpeedLimitsTool 设置道路限速。\n\n1. 在窗口中单击你想要设置的限速\n2. 单击一个路段来应用限速\n\n可用热键：\n\n- Shift：按住可一次性应用限速至多个路段\n- Ctrl：按住来单独设置每条车道的限速
-TMPE_TUTORIAL_HEAD_SpeedLimitsTool_Defaults 默认速度限制
-TMPE_TUTORIAL_BODY_SpeedLimitsTool_Defaults 1. 在上半部分使用箭头来(循环)选择所有的道路种类\n2. 在下半部分选择限速\n3. 单击"保存"来设置所选限速为新建该种类道路的默认;单击"保存 & 应用"来同时更新所选种类已有的道路
 TMPE_TUTORIAL_HEAD_TimedTrafficLightsTool 红绿灯定时设置
 TMPE_TUTORIAL_BODY_TimedTrafficLightsTool 设置红绿灯定时。\n\n1. 单击一个路口\n2. 在窗口中单击"添加定时"\n3. 单击覆盖元素来设置所要的红绿灯状态\n4. 单击"添加"\n5. 按需重复
+TMPE_TUTORIAL_HEAD_ToggleTrafficLightsTool 红绿灯增删
+TMPE_TUTORIAL_BODY_ToggleTrafficLightsTool 对路口增加/删除红绿灯。\n\n单击一个路口来增删红绿灯
+TMPE_TUTORIAL_HEAD_VehicleRestrictionsTool 道路车种限制
+TMPE_TUTORIAL_BODY_VehicleRestrictionsTool 禁止车辆通过特定路段。\n\n1. 单击一个路段\n2. 单击图标来切换限制\n\n车辆种类：\n\n- 公路车辆：客车、公交车、出租车、货车、服务车辆、应急车辆\n- 轨道车辆：客运列车、货运列车\n\n可用热键：\n\n- Shift：按住可一次性应用车种限制至多个路段
+TMPE_TUTORIAL_HEAD_SpeedLimitsTool_Defaults 默认速度限制
+TMPE_TUTORIAL_BODY_SpeedLimitsTool_Defaults 1. 在上半部分使用箭头来(循环)选择所有的道路种类\n2. 在下半部分选择限速\n3. 单击"保存"来设置所选限速为新建该种类道路的默认;单击"保存 & 应用"来同时更新所选种类已有的道路
 TMPE_TUTORIAL_HEAD_TimedTrafficLightsTool_AddStep 添加定时
 TMPE_TUTORIAL_BODY_TimedTrafficLightsTool_AddStep 1. 单击红绿灯来切换他们的状态;使用"改变模式"按钮来添加定向的红绿灯\n2. 输入一个最小和最大区间：经过最小时间后红绿灯将统计并比较一段时间内的来车\n3. 可选红绿灯变换类型：默认情况下通行车辆少于等待车辆时变换\n4. 可选调整红绿灯的敏感度：例如移动滑条至左侧来使自定时红绿灯对等待车辆较不敏感
 TMPE_TUTORIAL_HEAD_TimedTrafficLightsTool_Copy 复制自定时红绿灯
@@ -214,7 +217,12 @@ TMPE_TUTORIAL_HEAD_TimedTrafficLightsTool_AddJunction 向自定时红绿灯添�
 TMPE_TUTORIAL_BODY_TimedTrafficLightsTool_AddJunction 单击另一个路口来添加：两个红绿灯将被连接从而定时器将会同时控制两个路口\n\n任意位置单击右键来取消
 TMPE_TUTORIAL_HEAD_TimedTrafficLightsTool_RemoveJunction 从自定时红绿灯移除一个路口
 TMPE_TUTORIAL_BODY_TimedTrafficLightsTool_RemoveJunction 单击一个由该定时器控制的路口：所选的红绿灯将被移除从而该定时器将不再控制它\n\n任意位置单击右键来取消
-TMPE_TUTORIAL_HEAD_ToggleTrafficLightsTool 红绿灯增删
-TMPE_TUTORIAL_BODY_ToggleTrafficLightsTool 对路口增加/删除红绿灯。\n\n单击一个路口来增删红绿灯
-TMPE_TUTORIAL_HEAD_VehicleRestrictionsTool 道路车种限制
-TMPE_TUTORIAL_BODY_VehicleRestrictionsTool 禁止车辆通过特定路段。\n\n1. 单击一个路段\n2. 单击图标来切换限制\n\n车辆种类：\n\n- 公路车辆：客车、公交车、出租车、货车、服务车辆、应急车辆\n- 轨道车辆：客运列车、货运列车\n\n可用热键：\n\n- Shift：按住可一次性应用车种限制至多个路段
+Public_transport 公共交通
+Prevent_excessive_transfers_at_public_transport_stations 避免公共交通站点的非必要换乘
+Compact_main_menu 紧凑主菜单
+Window_transparency 窗口透明度
+Overlay_transparency 覆盖透明度
+Remove_this_citizen 移除此居民
+Show_error_message_if_a_mod_incompatibility_is_detected 检测到MOD不兼容时提示
+Remove_parked_vehicles 移除停放的车辆
+Node_is_level_crossing 此节点级别交汇，不可禁用红绿灯。
